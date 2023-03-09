@@ -7,7 +7,7 @@ It looks like Typescript 4.9.2+ changed the code that it emits for dynamic impor
 Use the following npm scripts to reproduce the error (it will set the correct Typescript version in the script):
 
 - Working fine on Typescript@4.9.1-beta: `npm run typescript-4.9.1-beta`
-- Broken on Typescript@latest `npm run typescript-latest`
+- Broken on Typescript@latest: `npm run typescript-latest`
 
 ## Possible cause
 
