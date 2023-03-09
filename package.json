@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "run491": "npm i typescript@4.9.1-beta && webpack && node dist/bundle.js",
+    "run495": "npm i typescript && webpack && node dist/bundle.js"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.1-beta",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "webpack": "^5.76.0"
+  }
+}
